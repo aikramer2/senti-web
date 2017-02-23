@@ -1,4 +1,6 @@
 # Senti Web
+### Deps
+Python 2.7, virtualenv
 
 ### Setup
 ```
