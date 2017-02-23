@@ -1,0 +1,74 @@
+
+<!doctype html>
+<head></head>
+
+<body>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.base--textarea {
+    width: 100%;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    font-weight: 300;
+    border: 2px solid #ececec;
+    background-color: #fff;
+}
+
+textarea {
+    overflow: auto;
+}
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+.base--button_submit {
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: bold;
+    background-color: #325c80;
+    border: 2px solid #325c80;
+    display: inline-block;
+}
+
+</style>
+
+<br>
+<div id='dynamicparts'></div>
+<textarea id="entity_input" class="js-input-section--text-area base--textarea input--text" style="height: 270px">Put some text here.</textarea>
+<button id="submitbutton" name="results" class="base--button_submit" style="float:right;">Get Sentiment from LSTM model</button>
+<script src="js/sentiment.js"></script>
+<div id="resultsdiv" class="o-container u-text-medium entities"></div>
+</body>

@@ -1,0 +1,7 @@
+theano
+keras
+spacy
+nltk
+scikit-learn
+h5py
+flask
