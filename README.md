@@ -1,4 +1,6 @@
 # Senti Web
+
+![example](https://raw.githubusercontent.com/aikramer2/senti-web/master/api/static/example.png)
 ### Deps
 Python 2.7, virtualenv
 
